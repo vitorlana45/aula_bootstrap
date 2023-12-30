@@ -1,11 +1,23 @@
 body{
     font: 20px Arial, sans-serif;
+   
+}
+.nav-item:hover{
+    transform: scale(1.1)
 }
 
 .custom-color {
- color: rgb(75, 9, 230);
+    overflow: hidden;
+   
+    background-color: transparent;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+  
 
 }
+
 .imagemLogo{
     margin-left: 50%;
     border-radius: 50px;
@@ -124,11 +136,6 @@ body{
 }
 .quem-somos{
     color: black;
-}
-.op{
-    text-align: center;
-    padding-top: 60px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bg-footer{
