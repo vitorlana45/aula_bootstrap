@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>minha página</title>
+    <title>Slack</title>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="Style.css">
 </head>
@@ -12,28 +12,34 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light margin ">
         <a class="navbar-brand" href="#">
-            <img src="src/slackCorp.jpg" width="200" height="100" class="imgLogo">
-
+            <img class="imagemLogo" src="src/slackCorp.jpg" width="200" height="100">
         </a>
         <div class="collapse navbar-collapse text">
-            <ul class="navbar-nav  ">
+            <ul class="navbar-nav navBar">
                 <li class="nav-item">
-                    <a class="nav-link " href="#quemSomos">Quem Somos</a>
+                    <a class="nav-link " href="#quemSomos"> <p class="custom-color">Quem somos</p></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                    <a class="nav-link" href="#parceiros"><p class="custom-color">Parceiros</p></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#servicos">Serviços</a>
+                    <a class="nav-link" href="#servicos"><p class="custom-color">Serviços</p></a>
                 </li>
             </ul>
             <div>
     </nav>
     <section id="quemsomos">
         <div class="container-fluid quem-somos text-center margin">
-            <h3 class="margin">Quem somos</h3>
-            <img src="src/group.jpg" class="rounded-circle" width="410" height="395" alt="imagem de um macbook aberto">
-            <h3 class="op">StartUp de Tecnologia</h3>
+            <h3 class="titleWhen">Quem somos</h3>
+            <img src="src/groupSlack.jpg" class="imgCompanny" alt="imagem de um macbook aberto"  >
+            <h3 class="about">
+                A Slack foi fundada em 2016 como resposta à crescente necessidade de simplificar e democratizar o desenvolvimento de websites para pequenas
+                 empresas e empreendedores. Nesse ano, havia uma lacuna significativa no mercado, onde muitas empresas enfrentavam dificuldades para 
+                criar presenças online eficientes devido à complexidade técnica e aos altos custos envolvidos.</h3>
+            <h3 class="textInfo">
+                Na Slack, entendemos a importância de uma primeira impressão impactante. Por isso, oferecemos 
+                ferramentas e recursos de análise para ajudar nossos clientes a compreender o desempenho de suas páginas, possibilitando ajustes 
+                estratégicos para maximizar o retorno sobre o investimento.</h3>
         </div>
     </section>
 
@@ -43,16 +49,20 @@
             <div class="container">
                 <div class="row ">
                     <div class="col-lg-4">
-                        <img src="src/ifood.png" width=100% alt="acrescentar ainda">
-                        <img src="" alt="">
+                        <a href="https://www.ifood.com.br/inicio" target="_blank">
+                        <img src="src/ifood.png" width=100% alt="acrescentar ainda"class="imgParceiros1 " >
+                        </a>
+                    </div>
+                    <div class="col-lg-4 IBM">
+                        <a href="https://www.ibm.com/br-pt" target="_blank">
+                        <img src="src/ibm-logo.png " width=100% alt="acrescentar ainda" class="imgParceiros2">
+                            
+                    </a>
                     </div>
                     <div class="col-lg-4 ">
-                        <img src="src/ibm-logo.png" width=100% alt="acrescentar ainda">
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-lg-4 ">
-                        <img src="src/meta.png" width=100% alt="acrescentar ainda">
-                        <img src="" alt="">
+                        <a href="https://about.meta.com/br "target= "_black">
+                        <img src="src/meta.png"  width=100% alt="acrescentar ainda" class="imgParceiros3">
+                    </a>
                     </div>
 
                 </div>
@@ -70,20 +80,23 @@
                         <img src="src/code1.jpg" width= "100%" alt="anotar ainda">
                     </div>
                     <div class="col-lg-4">
-                        <p>Desenvolvimento de novas Funções</p>
+                        <p>Monitoramento e Correções de Bugs</p>
                         <img src="src/code2.jpg" width="100%" alt="">
                     </div>
                     <div class="col-lg-4">
                         <p>Suporte 24h</p>
-                        <img src="src/code1.jpg" width="100%" alt="">
+                        <img src="src/call24.jpg" width="100%" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer class="container-fluid text-center bg-footer ">
-        <p>Desenvolvido por Vitor Lana </p>
-    </footer>
+    <footer class="meu-footer">
+        <div class="fraseTec">
+            <p>"A tecnologia é a ponte que conecta as aspirações humanas à sua realização, transformando sonhos em inovações e necessidades em soluções."</p>
+    </div>
+        <p>&copy;Desenvolvido por <a href="https://github.com/vitorlana45" target="_blank">VitorLana.</a></p>
+      </footer>
 </body>
 
 </html>

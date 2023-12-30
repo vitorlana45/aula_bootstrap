@@ -1,40 +1,103 @@
 body{
     font: 20px Arial, sans-serif;
+}
 
+.custom-color {
+ color: rgb(75, 9, 230);
+
+}
+.imagemLogo{
+    margin-left: 50%;
+    border-radius: 50px;
+      
+}
+.text{
+    padding: top 10px;
+}
+
+
+
+.titleWhen{
+    font-size: 50px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;;
+    padding-bottom: 20px;
+}
+
+.imgCompanny{
+    
+    padding-top:27px ;
+    padding-bottom: 27px;;
+    width: 500px; /* Largura desejada */
+    height: 600px;
+    border-radius:10% 10% ; 
 }
 
 .text{
-   padding-left: 29%; ;
+    margin-left: 28%;
+    padding-left: 29%; ;
 }
-.imgLogo{
-    border-radius: 50px;
+
+.about{
+    padding-top: 30px;;
+    font-size: x-large;
+    
+}
+.textInfo{
+    padding-top: 30px;;
+    font-size: x-large;
+
+    
 }
 
 .navbar{
     background-color:#f7e98e          ;
 }
 .quem-somos{
-    
     background-color: #eae0c8;
     color: white;
 }
 .margin{
     padding-bottom: 50px;
-    padding-top: 10px;
+    
 }
 .parceiros{
-    background-color: #fae7b5; 
+    padding-top: 50px;
+    background-color: #e6db99;
     color: black; /*   alterando a cor de Parceiros */
 }
-.bg-footer{
-    background-color: #f7e98e ;
-    padding: 35px;
-    font-family: Verdana ,Tahoma, sans-serif;
-    font-style: italic;
-    font-weight: bold;
+.imgParceiros1{
+    border-radius: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
 }
 
+.imgParceiros2{
+    padding-top: 105px;
+    width: 90%;
+ 
+}
+
+.imgParceiros3{
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.IBM{
+
+    border-radius: 50px;
+    border: 2px solid black; 
+    
+}
+
+
 .servicos {
+   padding-top: 50px;
     background-color: #eae0c8  ;
 }
 .quem-somos{
@@ -45,3 +108,36 @@ body{
     padding-top: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.bg-footer{
+    background-color: #f7e98e ;
+    padding: 35px;
+    font-family: Verdana ,Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+#frase {
+    background-color: rgb(2, 216, 180);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fraseTec{
+    color: aqua;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Estilos para o footer */
+.meu-footer {
+
+    background-color: #333; /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    padding-bottom: 20px;
+    text-align: center; /* Alinhamento do texto */
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+    position: static; /* Posicionamento absoluto para o footer ficar no rodapé da página */
+    width: 100%; /* Largura total */
+    bottom: 0; /* Alinhar no rodapé */
+  }
+  
