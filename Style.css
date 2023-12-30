@@ -77,8 +77,11 @@ body{
 }
 
 .imgParceiros2{
-    padding-top: 105px;
-    width: 90%;
+    padding-top: 25%;
+     padding-bottom: 35%;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid black; 
  
 }
 
@@ -88,11 +91,30 @@ body{
     border: 2px solid black;
 }
 
-.IBM{
-
-    border-radius: 50px;
-    border: 2px solid black; 
+.imgHoverP1:hover{
+    width: 32%;
+    height: auto;
+    display: block;
+    transform: scale(1.1)
     
+}
+
+.imgHoverP2:hover{
+
+    width: 32%;
+   height: auto;
+   display: block;
+   transform: scale(1.1)
+   
+}
+
+.imgHoverP3:hover{
+
+    width: 32%;
+   height: auto;
+   display: block;
+   transform: scale(1.1)
+   
 }
 
 
